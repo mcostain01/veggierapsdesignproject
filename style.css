@@ -1,0 +1,229 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* I went for more green/yellow colours, since the website is based on vegetables*/
+header{
+    text-align: center;
+    background-color: rgb(129, 202, 19);
+    height: 100px;
+  width: 100%;
+  margin-top: -22px;
+}
+
+.produce{
+  text-shadow: 2px 2px rgb(129, 202, 19);
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  p{
+      font-size: 20px;
+      margin-left: auto;
+      margin-bottom: 5px;
+  }
+
+.steal{
+    position: absolute;
+    top: 120%;
+    width: 100%;
+    text-align: center;
+    font-size: 23px;
+    
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* After I changed the design of the nav bar, these classes were crucial to make it look better*/
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(255, 174, 0);
+  position: sticky;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 146px;
+  text-decoration: none;
+  font-size: 20px;
+  position: sticky;
+}
+
+.topnav a:hover {
+  background-color: rgb(163, 113, 6);
+  color: rgb(255, 255, 255);
+  position: sticky;
+}
+
+footer{
+background-color: rgb(129, 202, 19);
+height: 200px;
+  width: 100%;
+}
+
+.msg{
+  text-align: center;
+}
+
+.header{
+  text-align: center;
+  margin-bottom: -20px;
+}
+.textbox {
+  height: 40px;
+  vertical-align: top;
+}
+
+form{
+  margin-left: 130px;
+}
+input[type=text]:focus {
+  border: 3px solid rgb(219, 29, 29);
+  text-align: top;
+} 
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: rgb(129, 202, 19);
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+textarea {
+  text-align: left;
+  vertical-align: top;
+}
+
+h2{
+  text-align: center;
+  font-family: cursive;
+}
+ 
+h3{
+  text-align: center;
+  font-style: italic;
+}
+.ihope{
+  text-align: center;
+  text-decoration-style: dashed;
+}
+.sidenav {
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(129, 202, 19);
+  overflow-x: hidden;
+  padding-top: 20px
+}
+.veg{
+color: yellowgreen;
+}
+.que{
+  margin-left: 130px;
+  text-align: left;
+  border: 2px;
+  border-color: darksalmon;
+}
+/* All of these div tags were necessary to make the photo gallerys work. The hover was just an added touch*/
+div.gallery {
+  margin: 50px;
+  border: 3px solid #ccc;
+  float: left;
+  width: 350px;
+}
+
+div.gallery:hover {
+  border: 5px solid rgb(157, 255, 0);
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: left;
+}
+
+form:hover{
+  color: blue;
+}
+
+div.gallery2 {
+  margin: 50px;
+  border: 3px solid #ccc;
+  float: left;
+  width: 220px;
+}
+
+div.gallery2:hover {
+  border: 5px solid rgb(157, 255, 0);
+}
+
+div.gallery2 img {
+  width: 100%;
+  height: 100%;
+}
+
+div.desc2 {
+  padding: 15px;
+  text-align: center;
+  font-style: oblique;
+}
+
+div.bboys{
+  width: 300px;
+  height:400px;
+}
+
+.onion{
+  padding-left: 20px;
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+}
+
+.tomatoes {
+  margin-bottom: 30px;
+  margin-left: 1.5rem;
+  font-size: 1.15rem;
+}
+
+.carrot {
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+  margin-left: 1.5rem;
+}
+.column {
+  height: 735px;
+}
+
+h5{
+  text-align: center;
+  font-style: italic;
+}
+h6{
+  text-align: center;
+}
+
+.think{
+  float: right;
+}
